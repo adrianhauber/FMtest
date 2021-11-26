@@ -97,7 +97,7 @@ title('Data - e15c064')
 %% Perform stationarity test
 rng(2)
 statConfig.signLevel = 0.05;
-statConfig.surrN = 500;
+statConfig.surrN = 1000;
 statConfig.surrMethod = 'AFFT';
 idata = 1;
 

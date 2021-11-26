@@ -62,7 +62,6 @@ n = size(x,1);
 
 X = fft(x);
 
-rng('shuffle')
 randomPhases = rand(n/2-1,N)*2*pi;
 symmetrizedRandomPhases = [zeros(1,N); randomPhases; zeros(1,N); ...
     -flipud(randomPhases)];
